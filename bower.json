@@ -1,6 +1,7 @@
 {
-  "name": "pagedown",
-  "version": "1.1.0",
+  "name": "markdownJs",
+  "version": "1.2.0",
+  "main": ["dist/markdown-converter.js", "dist/markdown-editor.js", "dist/markdown-extra.js"],
   "authors": [
     "Original Showdown code copyright (c) 2007 John Fraser",
     "Original Markdown Copyright (c) 2004-2005 John Gruber <http://daringfireball.net/projects/markdown/>",
@@ -18,7 +19,6 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
     "node_modules",
     "bower_components",
     "test",
